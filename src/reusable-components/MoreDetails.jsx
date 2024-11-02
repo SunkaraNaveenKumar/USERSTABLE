@@ -4,7 +4,7 @@ import { UsersDataStore } from "../context/MyContext";
 const MoreDetails = () => {
   const { selectedUser } = useContext(UsersDataStore);
   return (
-    <div className=" border">
+    <div className="border p-5">
       {Object.keys(selectedUser).length ? (
         Object.entries(selectedUser)?.map(([key, value]) => {
           if (typeof value !== "object") {

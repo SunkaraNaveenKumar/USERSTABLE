@@ -41,7 +41,7 @@ function App() {
     <div>
       <UsersDataStore.Provider value={{ users, setSelectedUser, selectedUser }}>
         <Table />
-        <div className="w-80 ml-10 mt-10 bg-red-100 flex justify-center items-center h-60">
+        <div className=" mt-10 bg-red-100 flex justify-center items-center">
           <MoreDetails />
         </div>
       </UsersDataStore.Provider>
